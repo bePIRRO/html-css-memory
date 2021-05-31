@@ -45,6 +45,7 @@ body{
     margin-bottom: 1%;
     margin-left: 1%;
     margin-right: 1%;
+    padding: 1%;
 }
 
 
@@ -118,8 +119,22 @@ header{
     cursor: pointer;
 }
 
+.text-card:not(.first) {
+    visibility: hidden;
+}
 
+.card:hover h2 {
+    visibility: visible;
+}
 
+#card9:hover {
+        background-image: url(../img/noun_Tractor_3134797.png);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 30%;
+        color: orange;
+}
 
 /* footer */
 footer{

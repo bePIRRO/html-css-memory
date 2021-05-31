@@ -59,7 +59,7 @@ header{
 
 
 /* cards */
-.baloon{
+#card6{
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -68,7 +68,16 @@ header{
     color: fuchsia;
 }
 
-.tractor{
+.baloon:hover{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: fuchsia;
+}
+
+.tractor:hover{
     background-image: url(../img/noun_Tractor_3134797.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -77,7 +86,7 @@ header{
     color: orange;
 }
 
-.bike{
+.bike:hover{
     background-image: url(../img/noun_Bicycle_3134821.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -86,7 +95,7 @@ header{
     color: red;
 }
 
-.ship{
+.ship:hover{
     background-image: url(../img/noun_Cruise_Ship_3134824.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -95,7 +104,7 @@ header{
     color: dodgerblue;
 }
 
-.sub{
+.sub:hover{
     background-image: url(../img/noun_Submarine_3134738.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -104,7 +113,7 @@ header{
     color: purple;
 }
 
-.tram{
+.tram:hover{
     background-image: url(../img/noun_Tram_3134750.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -125,15 +134,6 @@ header{
 
 .card:hover h2 {
     visibility: visible;
-}
-
-#card9:hover {
-        background-image: url(../img/noun_Tractor_3134797.png);
-        background-size: 60%;
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 30%;
-        color: orange;
 }
 
 /* footer */

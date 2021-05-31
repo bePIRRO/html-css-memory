@@ -23,6 +23,7 @@ body{
 .card{
     width: calc(25% - 4%);
     height: 210px;
+    background-color: #fff;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
     background-size: contain;
@@ -45,7 +46,13 @@ header{
 
 
 /* game */
-
+#uncovered{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+}
 
 
 /* footer */

@@ -24,12 +24,17 @@ body{
     float: left;
 }
 
-.text-card{
-    position: relative;
-    top: 82%;
-    font-size: 30px;
+
+/* header */
+header{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 4%;
+    text-shadow: 2px 1px #000;
 }
 
+
+/* cards */
 .card{
     width: calc(25% - 4%);
     height: 300px;
@@ -48,17 +53,6 @@ body{
     padding: 1%;
 }
 
-
-/* header */
-header{
-    color: #fff;
-    font-size: 50px;
-    margin-bottom: 4%;
-    text-shadow: 2px 1px #000;
-}
-
-
-/* cards */
 #card6{
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: 60%;
@@ -68,6 +62,7 @@ header{
     color: fuchsia;
 }
 
+/* card styles */
 .baloon:hover{
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: 60%;
@@ -123,7 +118,13 @@ header{
 }
 
 
-/* game */
+/* text cards */
+.text-card{
+    position: relative;
+    top: 84%;
+    font-size: 30px;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -135,6 +136,7 @@ header{
 .card:hover h2 {
     visibility: visible;
 }
+
 
 /* footer */
 footer{

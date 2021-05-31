@@ -9,6 +9,7 @@ body{
     font-family: 'Nerko One', cursive;
     background-color: #add8e6;
     margin: 0 15%;
+    text-align: center;
 }
 
 
@@ -23,6 +24,12 @@ body{
     width: 180px;
     height: 210px;
     background-image: url(../img/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 2px 1px #000;
+    margin-top: 1%;
 }
 
 
@@ -30,7 +37,6 @@ body{
 header{
     color: #fff;
     font-size: 50px;
-    text-align: center;
     text-shadow: 2px 1px #000;
 }
 

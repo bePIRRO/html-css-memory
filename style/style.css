@@ -32,14 +32,14 @@ body{
 
 .card{
     width: calc(25% - 4%);
-    height: 210px;
+    height: 300px;
     background-color: #fff;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
     background-size: contain;
     display: inline-block;
     border-radius: 15px;
-    box-shadow: 2px 1px #000;
+    box-shadow: 2px 2px #000;
     text-shadow: 2px 1px #000;
     margin-top: 1%;
     margin-left: 1%;
@@ -56,7 +56,7 @@ header{
 }
 
 
-/* game */
+/* cards */
 .baloon{
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: 60%;
@@ -66,9 +66,51 @@ header{
     color: fuchsia;
 }
 
-.container{
-    
+.tractor{
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: orange;
 }
+
+.bike{
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: red;
+}
+
+.ship{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: dodgerblue;
+}
+
+.sub{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: purple;
+}
+
+.tram{
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: green;
+}
+
 
 /* footer */
 footer{
